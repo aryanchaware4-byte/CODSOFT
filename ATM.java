@@ -1,6 +1,5 @@
 import java.util.Scanner;
 
-// Step 4: Bank Account class
 class BankAccount {
     private double balance;
 
@@ -33,7 +32,7 @@ class BankAccount {
     }
 }
 
-// Step 1 & 2: ATM Machine class with interface
+// ATM Machine class with interface
 public class ATM {
     private BankAccount account;
 
@@ -54,7 +53,7 @@ public class ATM {
         System.out.println("Current Balance: " + account.getBalance());
     }
 
-    // Step 7: Main UI
+    // Main UI
     public void showMenu() {
         Scanner scanner = new Scanner(System.in);
         int choice;
@@ -111,4 +110,5 @@ public class ATM {
         this.account = account;
     }
 }
+
 
